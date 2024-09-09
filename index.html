@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Bruno Santos</title>
+    <script src="/script.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Projeto Calculadora Tomorrow</h1>
+  <div id="telaDeExibicao"> </div> 
+  <div>
+    <button onclick="clicarOperando('7')" >7</button>
+    <button onclick="clicarOperando('8')" >8</button>
+    <button onclick="clicarOperando('9')">9</button>
+    <button onclick="eliminarDigito()" id="eliminarDigito">Apagar</button>
+  </div>
+  <div>
+    <button onclick="clicarOperando('4')">4</button>
+    <button onclick="clicarOperando('5')">5</button>
+    <button onclick="clicarOperando('6')">6</button>
+    <button class="operadores" onclick="clicarOperador('/')" >/</button>
+  </div>
+  <div>
+    <button onclick="clicarOperando('1')">1</button>
+    <button onclick="clicarOperando('2')">2</button>
+    <button onclick="clicarOperando('3')">3</button>
+    <button class="operadores" onclick="clicarOperador('*')">*</button>
+  </div>
+  <div>
+    <button onclick="clicarOperando('0')">0</button>
+    <button onclick="clicarOperando('.')">,</button> 
+    <button id="limpar" onclick="limparTela()">Limpar</button>
+    <button class="operadores" onclick="clicarOperador('+')">+</button></div>
+  </div>
+
+  <div>   
+    <button id="resultado" onclick="calcular()">=</button>
+    <button class="operadores" onclick="clicarOperador('-')">-</button>
+  </div>
+
+ <footer>
+  Feito por Bruno Santos e Santos
+ </footer>
+</body>
+</html>

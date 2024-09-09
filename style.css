@@ -1,0 +1,56 @@
+body{
+    background-color: #808080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+button{
+    width: 150px;
+    height: 80px;
+    font-size: 18px;
+}
+
+button img{
+    width:35px;
+    height: 35px;
+}
+
+#eliminarDigito{
+    color:#ce0023;
+
+}
+
+div{
+ margin-bottom: 15px;
+}
+
+#telaDeExibicao{
+    background-color: #fff;
+    border: #182400 solid 2px;
+    border-radius: 15px;
+    width : 605px;
+    height: 30px ;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.operadores{
+    background-color: #182400;
+    color: #8ACE00;
+    
+}
+
+#resultado{
+    width: 460px;
+    background-color: #8ACE00;
+    color: #fff;
+
+}
+
+#limpar{
+    background-color: #ce0023;
+    color: #fff;
+
+}
